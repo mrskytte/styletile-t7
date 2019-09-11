@@ -1,0 +1,122 @@
+:root {
+    --primary-color: mediumpurple;
+    --secondary-color: mediumslateblue;
+    --tertiary-color: mediumseagreen;
+    --fourth-color: mediumaquamarine;
+}
+
+
+header {
+    background-color: var(--primary-color);
+    padding: .5rem;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'helvetica';
+    border-radius: 8px;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header > h1 {
+    font-size: 40px;
+}
+
+.color {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.allcolor {
+    margin-top: .5rem;
+    margin-right: 1rem;
+    width: 15%;
+    height: 250px;
+    text-align: center;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.name {
+    font-weight: 300;
+}
+
+.color1 {
+    background-color: var(--primary-color);
+}
+
+.color2 {
+    background-color: var(--secondary-color);
+}
+
+.color3 {
+    background-color: var(--tertiary-color);
+}
+
+.color4 {
+    background-color: var(--fourth-color);
+}
+
+.typography {
+    display: flex;
+    flex-direction: column;
+}
+
+.typo1 {
+    font-size: 40px;
+}
+
+.typo2 {
+    font-size: 25px;
+}
+
+.p {
+    font-size: 20px;
+}
+
+.ImageButtonsWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 {}
+
+.btn:hover {}
+
+.btn2 {}
+
+.btn2:hover {}
+
+.images {
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'helvetica';
+    border-radius: 8px;
+    text-align: center;
+}
